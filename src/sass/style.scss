@@ -1,3 +1,19 @@
 @import "variables";
 @import "mixins";
 @import "media";
+
+* {
+	font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+.container {
+	max-width: 950px;
+	margin: 0 auto;
+}
+@import "promo.scss";
+@import "header.scss";
+@import "buttons.scss";
+@import "advantages.scss";
+@import "titles.scss";
+@import "consultation.scss";
+@import "forms.scss";
