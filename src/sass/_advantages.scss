@@ -20,6 +20,9 @@
         font-weight: bold;
         text-align: center;
         color: #0d0d0d;
+        &_hidden {
+            display: none;
+        }
     }
     &__descr {
         margin-top: 20px;

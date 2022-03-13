@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  //slider
     $('.carousel__inner').slick({
         infinite: true,
         slidesToShow: 1,
@@ -7,6 +8,21 @@ $(document).ready(function(){
         adaptiveHeight: true,
         prevArrow: '<button type="button" class="slick-prev"><img src="img/prev.png" alt="arrow"></button>',
         nextArrow: '<button type="button" class="slick-next"><img src="img/next.png" alt="arrow"></button>',
+        dotsClass: 'slick-dots',
+
+        responsive: [
+          {
+            breakpoint: 991.50,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              variableWidth: true,
+              arrows: false,
+              dots: true
+            }
+          }
+        ]
+
       });
     
     //tabs
